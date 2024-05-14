@@ -1,0 +1,114 @@
+*{
+  margin: 0; padding: 0; box-sizing: border-box;
+
+}
+
+
+body {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 40px 80px;
+  width: 95%; text-align: center; border-radius: 20PX;
+border: 1px solid rgb(217, 216, 216); 
+}
+.counter-value {
+ margin: auto; width: 100%; border-radius: 20px;
+
+}
+.counter-value h1{
+  font-size: 100px;  border-radius: 10px; box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px; color: #202b38;
+}
+.control-buttons {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50PX 20px;
+  margin-top: 20px;
+}
+.control-buttons button {
+  padding: 20px 30px;
+  font-size: 50px;
+  border-radius: 10px;
+  border: none;
+  width: 100px;
+}
+         
+.plus {
+  background-image: linear-gradient(to right, #56ab2f 0%, #a8e063  51%, #56ab2f  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.plus {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}         
+         
+.reset{
+  background-image: linear-gradient(to right, #485563 0%, #29323c  51%, #485563  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.reset {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+.reset {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+         
+.reduce {
+  background-image: linear-gradient(to right, #cb2d3e 0%, #ef473a  51%, #cb2d3e  100%);
+  margin: 10px;
+  padding: 15px 45px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+}
+
+.reduce {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+}
+
